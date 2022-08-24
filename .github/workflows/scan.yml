@@ -22,3 +22,4 @@ jobs:
         with:
           # Target URL
           target: "https://gitlab.cloudifyops.com/Akshaya"
+          token: ${{ secrets.GITLAB_TOKEN }}
